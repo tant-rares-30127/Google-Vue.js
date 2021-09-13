@@ -26,16 +26,48 @@ export default {
     LowerFooter
   }
 
-    }
+}
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  min-height: 100%;
+}
+
+.allpage {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  margin: 10px 10px;
+  align-self: center;
+}
+
+.textLink {
+  text-decoration: none;
+  color: black;
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.textLink:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 800px) {
+  .hero .form-container form input {
+    width: 500px;
+  }
+  .lowerfooter {
+    flex-direction: column;
+  }
 }
 </style>

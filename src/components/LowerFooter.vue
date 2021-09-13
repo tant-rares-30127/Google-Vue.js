@@ -13,3 +13,25 @@
     </div>
   </div>
 </template>
+
+<style>
+.lowerfooter {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 25px;
+  background-color: #f2f2f2;
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.leftfooter {
+  display: flex;
+  align-items: flex-start;
+}
+
+.rightfooter {
+  display: flex;
+  align-items: flex-end;
+}
+</style>

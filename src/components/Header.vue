@@ -9,6 +9,36 @@
         ></path>
       </svg>
     </a>
-    <a href="#" class="topImg"><img src="pics/me (1).PNG" class="myphoto" /></a>
+    <a href="#" class="topImg"><img src="../assets/me.png" class="myphoto"/></a>
   </div>
 </template>
+
+<style>
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+}
+
+.myphoto {
+  border-radius: 50%;
+}
+
+.menu {
+  height: 24px;
+  width: 24px;
+  fill: rgb(95, 99, 104);
+}
+
+.topImg {
+  padding: 5px;
+  padding-bottom: 1px;
+  border: transparent;
+}
+
+.topImg:hover {
+  box-shadow: 0px 1px 5px #949494;
+  background-color: rgba(60, 64, 67, 0.08);
+  border-radius: 50%;
+}
+</style>
