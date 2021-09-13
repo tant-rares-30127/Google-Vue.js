@@ -4,6 +4,7 @@
 
 <style>
 .up-spacer {
-  flex-grow: 10;
+  display: flex;
+  flex-grow: 0.3;
 }
 </style>
